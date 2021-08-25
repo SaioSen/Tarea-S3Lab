@@ -9,7 +9,7 @@
 <div class="text-center">
     <h1 class="display-4">Formulario de Registro de Alumnos</h1>
 
-    <form asp-controller="Venta" asp-action="Crear">
+    <form asp-controller="Alumno" asp-action="Crear">
 
         <label asp-for="Nombres" class="control-label"></label>
         <input asp-for="Nombres" class="form-control" type="text" placeholder="Escriba el nombres" />
@@ -29,7 +29,7 @@
 
         <br>
         <div class="form-group">
-            <button type="submit" class="btn btn-primary">Calcular Total</button>
+            <button type="submit" class="btn btn-primary">Registrar</button>
         </div>
     </form>
     <h1>@ViewData["Message"]</h1>
