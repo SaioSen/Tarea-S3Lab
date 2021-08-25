@@ -13,12 +13,8 @@ namespace Tarea_S3Lab.Controllers
 
         }
 
-        public IActionResult Crear(Alumno objventa)
+        public IActionResult Crear(Alumno objAlumno)
         {
-
-
-
-
 
             ViewData["Message"] = "Alumno Registrado";
 
