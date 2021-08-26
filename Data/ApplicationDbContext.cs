@@ -10,5 +10,7 @@ namespace Tarea_S3Lab.Data
         {
 
         }
+
+        public DbSet<Tarea_S3Lab.Models.Alumno> DataAlumno { get; set; }
     }
 }
