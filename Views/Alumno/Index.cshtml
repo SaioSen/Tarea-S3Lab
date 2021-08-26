@@ -26,9 +26,18 @@
         Femenino
         <input asp-for="Genero" class="form-control" type="radio" value="F" />
 
-        <label asp-for="Carrera" class="control-label"></label>
-        <input asp-for="Carrera" class="form-control" type="text" placeholder="Carrera" />
+        </br>
+        <label>Fecha de Nacimiento:</label>
+        <input asp-for="Time" class="form-control" type="date"/>
 
+        <label asp-for="Carrera" class="control-label"></label>
+        <select asp-for="Carrera" class="custom-select" id="inputGroupSelect01">
+            <option velue="Sistemas">Sistemas</option>
+            <option value="Aeronautica">Aeronautica</option>
+            <option value="Civil">Civil</option>
+            <option value="Industrial">Industrial</option>
+            <option value="Arquitectura">Arquitectura</option>
+        </select>
 
         <br>
         <div class="form-group">
